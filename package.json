@@ -1,0 +1,35 @@
+{
+	"name": "current-regio-speed",
+	"description": "Get the speed of the Regio (RE/RB) train you're sitting in.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"bin": {
+		"current-regio-speed": "./cli.js"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"regio",
+		"regionalexpress",
+		"regionalbahn",
+		"deutsche bahn",
+		"db",
+		"train"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/current-regio-speed",
+	"repository": "derhuerst/current-regio-speed",
+	"bugs": "https://github.com/derhuerst/current-regio-speed/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=8"
+	},
+	"dependencies": {
+	},
+	"scripts": {
+		"test": "env NODE_ENV=dev node test.js",
+		"prepublishOnly": "npm test"
+	}
+}
